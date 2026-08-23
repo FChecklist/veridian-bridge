@@ -1,14 +1,50 @@
 {
-  "platform.claude_log.id12.json": { "row_count": 1, "exported_at_utc": "2026-08-23T12:44:01Z" },
-  "platform.claude_log.id13.json": { "row_count": 1, "exported_at_utc": "2026-08-23T12:44:01Z" },
-  "platform.claude_log.id14.json": { "row_count": 1, "exported_at_utc": "2026-08-23T12:44:01Z" },
-  "platform.claude_log.handout.json": { "row_count": 1, "exported_at_utc": "2026-08-23T12:44:01Z" },
-  "platform.cc_spec.json": { "row_count": 122, "exported_at_utc": "2026-08-23T12:44:01Z" },
-  "platform.sumeet_requirements.json": { "row_count": 69, "exported_at_utc": "2026-08-23T12:44:01Z" },
-  "tests.json": { "row_count": 38, "exported_at_utc": "2026-08-23T12:44:01Z" },
-  "pms_issues.recent.json": { "row_count": 30, "exported_at_utc": "2026-08-23T12:44:01Z" },
-  "erp_budgets.recent.json": { "row_count": 1, "exported_at_utc": "2026-08-23T12:44:01Z" },
-  "_schema.json": { "row_count": 695, "exported_at_utc": "2026-08-23T12:44:01Z" },
-  "projexa.veridian_credentials.json": { "row_count": 10, "exported_at_utc": "2026-08-23T12:44:01Z" },
-  "projexa._schema.json": { "row_count": 71, "exported_at_utc": "2026-08-23T12:44:01Z" }
+  "platform.claude_log.id12.json": {
+    "row_count": 1,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  },
+  "platform.claude_log.id13.json": {
+    "row_count": 1,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  },
+  "platform.claude_log.id14.json": {
+    "row_count": 1,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  },
+  "platform.claude_log.handout.json": {
+    "row_count": 1,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  },
+  "platform.cc_spec.json": {
+    "row_count": 122,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  },
+  "platform.sumeet_requirements.json": {
+    "row_count": 69,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  },
+  "tests.json": {
+    "row_count": 38,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  },
+  "pms_issues.recent.json": {
+    "row_count": 30,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  },
+  "erp_budgets.recent.json": {
+    "row_count": 1,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  },
+  "_schema.json": {
+    "row_count": 695,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  },
+  "projexa.veridian_credentials.json": {
+    "row_count": 10,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  },
+  "projexa._schema.json": {
+    "row_count": 71,
+    "exported_at_utc": "2026-08-23T14:20:00Z"
+  }
 }
