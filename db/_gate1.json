@@ -31,5 +31,45 @@
     "same_root_cause_as_175_evidence": "point 175 = missing auth account on the correct Supabase project (an identity/provisioning bug). point 177 = listBoqs() ordering by version DESC with no tiebreaker, so boqs.find(status !== superseded) picked an arbitrary BOQ when 2+ independent BOQs share a version (src/lib/services/construction-boq-service.ts:165-172, compliance-tracker). Reproduced live with a real session BEFORE the fix: GET /api/work-progress/report?projectId=projexa_demo_project -> boqTitle:\"Villa 21 - Original BOQ\" (wrong; item 1.01's oracle numbers were computed against \"Sumeet Sample Scope\"). Completely unrelated mechanisms -- fixed separately via PR #1325 (createdAt DESC secondary sort), merged, fresh production deploy pushed.",
     "point_155_closed": true,
     "point_155_fix": "The real premise gap (zero company memberships existed for this org, so DashboardHierarchyClient's project-value editor was unreachable) was fixed via the real POST /api/companies endpoint (not raw SQL) -- created company alf9adtmnz64hypfmu9f9ht7. Then PATCH /api/projects/projexa_demo_project {projectValue:2500000} -> HTTP 200, confirmed persisted via direct SQL."
+  },
+  "r34": {
+    "session_environment_note": "This pass ran in a fresh remote/cloud Claude Code session (ephemeral Linux container), NOT Rajat's own laptop where R31-R33 ran. This session's outbound HTTPS egress proxy blocks direct access to evpckeuxgvahguwsaeul.supabase.co and projexa-ai.com (confirmed via curl: 'CONNECT tunnel failed, response 403' on both hosts; /root/.ccr/README.md confirms this pattern means the destination host is not on this session's org egress allowlist, not a transient error). The Supabase MCP tool (SQL only, no HTTP/GoTrue calls) worked fine throughout and was used for every DB read/write below. Anything requiring a live HTTP call to the app or GoTrue -- session minting, timed route tests -- could not be attempted from here and was not worked around; Rajat chose to skip those steps this pass rather than reroute them.",
+    "gate0_pass": true,
+    "gate0_detail": {"org_count": 1, "compliance_table_count": 454, "point0_count": 1},
+    "point_155": {
+      "truly_closed": true,
+      "project_value_actual": 2500000,
+      "e52_instance": null,
+      "note": "proof_of_work was stale (still described the pre-fix zero-state); the fix itself was real and already persisted. Replaced proof_of_work only, live-verified before editing: project_value=2500000 for projexa_demo_project; org-scoped gate1_static re-run now projects=10, with_value=1, pos=1, pos_linked=0 (was with_value=0, pos=0 pre-fix)."
+    },
+    "point_175": {
+      "action": "SKIPPED on Rajat's explicit instruction -- not edited",
+      "reason": "the work order's premise that point 175 is 'the login gate' does not match live platform.cc_spec: point 175's actual title/proof are the BOQ-seed point (SEED projexa_demo_org with Sumeet's REAL BOQ...) and are internally consistent with each other. The login-gate fix narrative (arjun.mehta provisioned on the wrong Supabase project, magic-link fix) actually lives inside point 30's cc_status (VERIFY Permits end-to-end), echoed into 177 and 182. Overwriting 175 as instructed would have introduced a fresh status/proof mismatch rather than fixed one -- flagged to Rajat via AskUserQuestion, who chose to leave 175 untouched."
+    },
+    "point_177": {
+      "action": "no edit made -- already synced",
+      "reason": "cc_status already documented the merged listBoqs fix (PR #1325, verified live in production) and the honest 20/38 NOT RUN backlog with cc_closed=false before this pass touched it. Live recount confirmed exact match: PASS=16, FAIL=1, NOT APPLICABLE=1, NOT RUN=20."
+    },
+    "point_182": {
+      "action": "cc_status appended, blocked_on_human set true",
+      "verified_live": "zero rows in platform.sumeet_uat (test_no/func_ref/title) or platform.sumeet_spec (any column) reference any TC- id, confirmed by direct query this pass. The stale 'blocked by the same root cause as point 175' framing was superseded -- that root cause (login) was fixed at R31/R33. The real, current, sole blocker is the missing TC-01/TC-10/TC-11/TC-30/TC-40/TC-90 definitions/mapping, which is a specification gap, not code or auth.",
+      "status": "BLOCKED-ON-RAJAT"
+    },
+    "e122_logged": true,
+    "e122_detail": "Appended to platform.claude_log id 13 with a dollar-quoted tag ($E122APPEND$...$E122APPEND$); length(body) verified 95228 -> 95618 (delta 390 chars, matches the appended text exactly).",
+    "floor_plans_prod_seconds": null,
+    "floor_plans_prod_repro": "NOT TESTED this pass. Blocked by this session's egress policy (see session_environment_note); Rajat chose to skip rather than have this worked around from a different channel.",
+    "tests_run": 0,
+    "tests_pass": 0,
+    "tests_fail": 0,
+    "tests_blocked": 0,
+    "tests_note": "The 20 NOT RUN platform.sumeet_uat rows were NOT executed this pass -- same egress blocker, skipped on Rajat's instruction. Still genuinely 16 PASS / 1 FAIL / 1 NOT APPLICABLE / 20 NOT RUN, unchanged from R31/R33. No bulk run_at stamping, no fabricated results (E-121 not repeated).",
+    "schema_drift_note": "platform.cc_spec grew 60 -> 122 rows, and the compliance+platform information_schema.columns dump grew 695 -> 5504 rows (502 distinct tables) since the last bridge export. Flagged for visibility only -- this pass did not cause it and did not investigate why.",
+    "bridge_refresh": {
+      "files_reexported": 14,
+      "secret_scan_method": "grep -rniE 'api[_-]?key|secret|password|token|ghp_|sbp_|service_role' across every staged export file; all 373 matches individually classified as schema column-name metadata, or prose discussing auth concepts, before commit -- except one.",
+      "secret_scan_finding": "platform.cc_spec point 118's proof_of_work/gate2_actual contained a real, live-generated report-share-link bearer token from a test of the report-share feature. Verified live against compliance.report_share_links before redacting: revoked_at is set (2026-08-23 04:02:51), i.e. already dead -- but its literal value was redacted from the exported cc_spec.json regardless (replaced with <redacted-revoked-share-token>) since a public repo should never carry a real credential-shaped value, dead or not. The live database record itself was left untouched.",
+      "veridian_credentials_columns_confirmed": "the real veridian_credentials table columns are organization_id, veridian_org_id, veridian_api_key, created_at, updated_at. Only organization_id, an organization_name JOINed in from public.organizations, and created_at were exported -- veridian_org_id and veridian_api_key were never queried into the export, matching the prior file's shape."
+    }
   }
 }
