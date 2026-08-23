@@ -1,50 +1,14 @@
 {
-  "platform.claude_log.id12.json": {
-    "row_count": 1,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  },
-  "platform.claude_log.id13.json": {
-    "row_count": 1,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  },
-  "platform.claude_log.id14.json": {
-    "row_count": 1,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  },
-  "platform.claude_log.handout.json": {
-    "row_count": 1,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  },
-  "platform.cc_spec.json": {
-    "row_count": 60,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  },
-  "platform.sumeet_requirements.json": {
-    "row_count": 69,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  },
-  "tests.json": {
-    "row_count": 38,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  },
-  "pms_issues.recent.json": {
-    "row_count": 30,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  },
-  "erp_budgets.recent.json": {
-    "row_count": 1,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  },
-  "_schema.json": {
-    "row_count": 695,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  },
-  "projexa.veridian_credentials.json": {
-    "row_count": 10,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  },
-  "projexa._schema.json": {
-    "row_count": 71,
-    "exported_at_utc": "2026-08-23T06:31:53Z"
-  }
+  "platform.claude_log.id12.json": { "row_count": 1, "exported_at_utc": "2026-08-23T08:11:51Z" },
+  "platform.claude_log.id13.json": { "row_count": 1, "exported_at_utc": "2026-08-23T08:11:51Z" },
+  "platform.claude_log.id14.json": { "row_count": 1, "exported_at_utc": "2026-08-23T08:11:51Z" },
+  "platform.claude_log.handout.json": { "row_count": 1, "exported_at_utc": "2026-08-23T08:11:51Z" },
+  "platform.cc_spec.json": { "row_count": 60, "exported_at_utc": "2026-08-23T08:11:51Z" },
+  "platform.sumeet_requirements.json": { "row_count": 69, "exported_at_utc": "2026-08-23T08:11:51Z" },
+  "tests.json": { "row_count": 38, "exported_at_utc": "2026-08-23T08:11:51Z" },
+  "pms_issues.recent.json": { "row_count": 30, "exported_at_utc": "2026-08-23T08:11:51Z" },
+  "erp_budgets.recent.json": { "row_count": 1, "exported_at_utc": "2026-08-23T08:11:51Z" },
+  "_schema.json": { "row_count": 695, "exported_at_utc": "2026-08-23T08:11:51Z" },
+  "projexa.veridian_credentials.json": { "row_count": 10, "exported_at_utc": "2026-08-23T08:11:51Z" },
+  "projexa._schema.json": { "row_count": 71, "exported_at_utc": "2026-08-23T08:11:51Z" }
 }
