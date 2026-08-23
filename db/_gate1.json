@@ -1,0 +1,6 @@
+{
+  "db_host": "aws-1-ap-south-1.pooler.supabase.com (resolves to project evpckeuxgvahguwsaeul via postgres.evpckeuxgvahguwsaeul user prefix; projexa's own env has no literal DATABASE_URL, src/lib/db/index.ts builds this from NEXT_PUBLIC_SUPABASE_URL + SUPABASE_DB_PASSWORD)",
+  "supabase_host": "evpckeuxgvahguwsaeul.supabase.co",
+  "count_via_DATABASE_URL": 10,
+  "count_in_cloud": 10
+}

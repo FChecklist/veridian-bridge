@@ -1,0 +1,2782 @@
+[
+  {
+    "table_name": "ai_agent_memory",
+    "column_name": "id"
+  },
+  {
+    "table_name": "ai_agent_memory",
+    "column_name": "role_id"
+  },
+  {
+    "table_name": "ai_agent_memory",
+    "column_name": "ts"
+  },
+  {
+    "table_name": "ai_agent_memory",
+    "column_name": "task_id"
+  },
+  {
+    "table_name": "ai_agent_memory",
+    "column_name": "outcome"
+  },
+  {
+    "table_name": "ai_agent_memory",
+    "column_name": "escalation_flag"
+  },
+  {
+    "table_name": "ai_agent_memory",
+    "column_name": "cross_ref_work_item_id"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "id"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "provider"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "model"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "tier"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "status"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "cost_per_1k_input"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "cost_per_1k_output"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "health_status"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "notes"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "ai_model_registry",
+    "column_name": "role"
+  },
+  {
+    "table_name": "ai_routing_audit_log",
+    "column_name": "id"
+  },
+  {
+    "table_name": "ai_routing_audit_log",
+    "column_name": "scope"
+  },
+  {
+    "table_name": "ai_routing_audit_log",
+    "column_name": "context"
+  },
+  {
+    "table_name": "ai_routing_audit_log",
+    "column_name": "resolved_provider"
+  },
+  {
+    "table_name": "ai_routing_audit_log",
+    "column_name": "resolved_model"
+  },
+  {
+    "table_name": "ai_routing_audit_log",
+    "column_name": "policy_version"
+  },
+  {
+    "table_name": "ai_routing_audit_log",
+    "column_name": "reason"
+  },
+  {
+    "table_name": "ai_routing_audit_log",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "ai_routing_policies",
+    "column_name": "id"
+  },
+  {
+    "table_name": "ai_routing_policies",
+    "column_name": "scope"
+  },
+  {
+    "table_name": "ai_routing_policies",
+    "column_name": "version"
+  },
+  {
+    "table_name": "ai_routing_policies",
+    "column_name": "is_active"
+  },
+  {
+    "table_name": "ai_routing_policies",
+    "column_name": "rule"
+  },
+  {
+    "table_name": "ai_routing_policies",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "ai_routing_policies",
+    "column_name": "created_by"
+  },
+  {
+    "table_name": "ai_team_role_overrides",
+    "column_name": "id"
+  },
+  {
+    "table_name": "ai_team_role_overrides",
+    "column_name": "role_key"
+  },
+  {
+    "table_name": "ai_team_role_overrides",
+    "column_name": "model"
+  },
+  {
+    "table_name": "ai_team_role_overrides",
+    "column_name": "reason"
+  },
+  {
+    "table_name": "ai_team_role_overrides",
+    "column_name": "updated_by_user_id"
+  },
+  {
+    "table_name": "ai_team_role_overrides",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "ai_team_role_overrides",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "ai_team_role_overrides",
+    "column_name": "candidate_model"
+  },
+  {
+    "table_name": "ai_team_role_overrides",
+    "column_name": "rollout_percentage"
+  },
+  {
+    "table_name": "arch_rules",
+    "column_name": "id"
+  },
+  {
+    "table_name": "arch_rules",
+    "column_name": "rule"
+  },
+  {
+    "table_name": "arch_rules",
+    "column_name": "why"
+  },
+  {
+    "table_name": "arch_rules",
+    "column_name": "concrete_example"
+  },
+  {
+    "table_name": "arch_rules",
+    "column_name": "counter_rule"
+  },
+  {
+    "table_name": "arch_rules",
+    "column_name": "applies_to"
+  },
+  {
+    "table_name": "arch_rules",
+    "column_name": "ruled_by"
+  },
+  {
+    "table_name": "arch_rules",
+    "column_name": "ruled_on"
+  },
+  {
+    "table_name": "arch_rules",
+    "column_name": "refs"
+  },
+  {
+    "table_name": "arch_rules",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "automation_rule_runs",
+    "column_name": "id"
+  },
+  {
+    "table_name": "automation_rule_runs",
+    "column_name": "rule_id"
+  },
+  {
+    "table_name": "automation_rule_runs",
+    "column_name": "triggered_at"
+  },
+  {
+    "table_name": "automation_rule_runs",
+    "column_name": "trigger_payload"
+  },
+  {
+    "table_name": "automation_rule_runs",
+    "column_name": "status"
+  },
+  {
+    "table_name": "automation_rule_runs",
+    "column_name": "result_summary"
+  },
+  {
+    "table_name": "automation_rule_runs",
+    "column_name": "error_message"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "id"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "org_id"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "name"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "description"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "trigger_type"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "trigger_conditions"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "action_type"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "action_config"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "is_active"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "created_by_id"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "automation_rules",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "id"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "phase"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "seq"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "title"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "requirement_ids"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "action_type"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "repo"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "file_path"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "exact_change"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "how"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "blocked_by"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "status"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "evidence"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "gap_refs"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "rules"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "test_boolean"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "tables_touched"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "point_no"
+  },
+  {
+    "table_name": "build_plan",
+    "column_name": "cc_eligible"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "id"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "capability_id"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "capability_version"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "findings"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "occurrence_count"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "status"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "dispatched_to_role"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "dispatched_at"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "pr_url"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "existing_asset_match"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "dispatch_output"
+  },
+  {
+    "table_name": "capability_improvement_proposals",
+    "column_name": "rejection_reason"
+  },
+  {
+    "table_name": "cc_queue",
+    "column_name": "read_order"
+  },
+  {
+    "table_name": "cc_queue",
+    "column_name": "point_no"
+  },
+  {
+    "table_name": "cc_queue",
+    "column_name": "module"
+  },
+  {
+    "table_name": "cc_queue",
+    "column_name": "title"
+  },
+  {
+    "table_name": "cc_queue",
+    "column_name": "attempts_so_far"
+  },
+  {
+    "table_name": "cc_queue",
+    "column_name": "attempt_cap"
+  },
+  {
+    "table_name": "cc_queue",
+    "column_name": "cc_status"
+  },
+  {
+    "table_name": "cc_queue",
+    "column_name": "claim_state"
+  },
+  {
+    "table_name": "cc_results",
+    "column_name": "result_id"
+  },
+  {
+    "table_name": "cc_results",
+    "column_name": "run_id"
+  },
+  {
+    "table_name": "cc_results",
+    "column_name": "point_no"
+  },
+  {
+    "table_name": "cc_results",
+    "column_name": "plan_id"
+  },
+  {
+    "table_name": "cc_results",
+    "column_name": "result"
+  },
+  {
+    "table_name": "cc_results",
+    "column_name": "output"
+  },
+  {
+    "table_name": "cc_results",
+    "column_name": "error"
+  },
+  {
+    "table_name": "cc_results",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "point_no"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "module"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "requirement_ref"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "title"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "is_it_there"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "is_it_missing"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "evidence_file"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "evidence_ref"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "what_to_do"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "where_to_do"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "how_to_do"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "logic"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "flow"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "conditions"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "input_params"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "output_params"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "boolean_params"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "db_tables"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "api_contract"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "tenant_scope"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "preconditions"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "edge_cases"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "acceptance_test"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "rollback"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "depends_on"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "blocked_on_human"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "claude_code_can_do"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "cc_status"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "cc_implemented"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "cc_tested"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "cc_audited"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "cc_gaps_found"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "cc_closed"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "cc_notes"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "cc_updated_at"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "schema_ddl"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "orm_change"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "backend_files"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "frontend_files"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "api_in"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "api_out"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "ui_fields"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "business_logic"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "pattern_to_copy"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "do_not_assume"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "closure_proof_sql"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "closure_proof_expected"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "quality_gates"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "source_plan_id"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "attempt_count"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "attempt_log"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "files_changed"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "pr_url"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "commit_sha"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "proof_actual"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "errors_hit"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "quality_gate_results"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "started_at"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "finished_at"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "closure_proof_cmd"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "closure_proof_cmd_expected"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "gate1_static"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "gate1_expected"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "gate2_behaviour"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "gate2_expected"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "gate3_negative"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "gate3_expected"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "gate1_actual"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "gate2_actual"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "gate3_actual"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "data_source"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "data_sink"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "data_flow"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "pre_execution"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "during_execution"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "post_execution"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "next_step_after"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "gate_baseline"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "spec_ready"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "owner"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "read_order"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "attempt_cap"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "run_id"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "heartbeat_at"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "proof_of_work"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "chat_verified"
+  },
+  {
+    "table_name": "cc_spec",
+    "column_name": "chat_verified_at"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "task_no"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "run_id"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "block"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "cycle"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "title"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "repo"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "file_path"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "what_to_do"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "logic"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "expected_result"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "pass_criteria"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "depends_on"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "stop_on_fail"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "status"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "result_bool"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "output"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "error"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "evidence"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "started_at"
+  },
+  {
+    "table_name": "cc_tasks",
+    "column_name": "completed_at"
+  },
+  {
+    "table_name": "claude_instructions",
+    "column_name": "id"
+  },
+  {
+    "table_name": "claude_instructions",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "claude_instructions",
+    "column_name": "wo"
+  },
+  {
+    "table_name": "claude_instructions",
+    "column_name": "title"
+  },
+  {
+    "table_name": "claude_instructions",
+    "column_name": "prompt_text"
+  },
+  {
+    "table_name": "claude_instructions",
+    "column_name": "status"
+  },
+  {
+    "table_name": "claude_instructions",
+    "column_name": "issued_by"
+  },
+  {
+    "table_name": "claude_log",
+    "column_name": "id"
+  },
+  {
+    "table_name": "claude_log",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "claude_log",
+    "column_name": "author"
+  },
+  {
+    "table_name": "claude_log",
+    "column_name": "wo"
+  },
+  {
+    "table_name": "claude_log",
+    "column_name": "status"
+  },
+  {
+    "table_name": "claude_log",
+    "column_name": "title"
+  },
+  {
+    "table_name": "claude_log",
+    "column_name": "body"
+  },
+  {
+    "table_name": "claude_log",
+    "column_name": "evidence"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "id"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "repo"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "file_path"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "fact_type"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "symbol"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "fact"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "exact_text"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "line_ref"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "verified_at"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "verified_ref"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "still_true"
+  },
+  {
+    "table_name": "code_facts",
+    "column_name": "refs"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "id"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "role_key"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "dispatch_path"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "objective"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "scope"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "success_criteria"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "complexity_tier"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "request_fingerprint"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "status"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "pr_url"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "error_detail"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "model_used"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "org_id"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "dispatched_by"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "dispatched_at"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "completed_at"
+  },
+  {
+    "table_name": "dispatch_outcomes",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "id"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "org_id"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "mode_pill"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "path_keys"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "path_labels"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "module_ref"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "description"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "created_by_id"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "status"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "linked_module_refs"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "business_rules"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "permissions"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "workflow_ref"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "ai_behavior_ref"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "reports_kpis_slas"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "version"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "previous_version_id"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "linked_approval_workflow_ids"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "governance_notes"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "deprecation_reason"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "monitoring_rules"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "classification"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "owner_department_id"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "input_contract"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "output_contract"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "ai_config"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "workflow_steps_config"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "linked_knowledge_base_page_ids"
+  },
+  {
+    "table_name": "dynamic_chains",
+    "column_name": "product_branch_id"
+  },
+  {
+    "table_name": "entity_relationships",
+    "column_name": "id"
+  },
+  {
+    "table_name": "entity_relationships",
+    "column_name": "org_id"
+  },
+  {
+    "table_name": "entity_relationships",
+    "column_name": "source_type"
+  },
+  {
+    "table_name": "entity_relationships",
+    "column_name": "source_id"
+  },
+  {
+    "table_name": "entity_relationships",
+    "column_name": "target_type"
+  },
+  {
+    "table_name": "entity_relationships",
+    "column_name": "target_id"
+  },
+  {
+    "table_name": "entity_relationships",
+    "column_name": "relationship_type"
+  },
+  {
+    "table_name": "entity_relationships",
+    "column_name": "metadata"
+  },
+  {
+    "table_name": "entity_relationships",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "entity_relationships",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "id"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "found_on"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "source"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "category"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "severity"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "error"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "symptom"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "root_cause"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "how_found"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "how_resolved"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "file_path"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "db_ref"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "status"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "prevention_rule"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "refs"
+  },
+  {
+    "table_name": "error_log",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "id"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "org_id"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "user_id"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "request_text"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "status"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "matched_worker_agent_id"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "matched_label"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "created_worker_agent_id"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "response_text"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "top_candidates"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "reuse_level"
+  },
+  {
+    "table_name": "fde_requests",
+    "column_name": "created_dynamic_chain_id"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "id"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "org_id"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "instruction_text"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "content_hash"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "resolved_capability_type"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "resolved_capability_id"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "resolved_label"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "resolved_params_shape"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "success_count"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "last_used_at"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "instruction_execution_cache",
+    "column_name": "embedding"
+  },
+  {
+    "table_name": "mode_pills",
+    "column_name": "pill_key"
+  },
+  {
+    "table_name": "mode_pills",
+    "column_name": "display_name"
+  },
+  {
+    "table_name": "mode_pills",
+    "column_name": "scope"
+  },
+  {
+    "table_name": "mode_pills",
+    "column_name": "sort_order"
+  },
+  {
+    "table_name": "mode_pills",
+    "column_name": "purpose"
+  },
+  {
+    "table_name": "mode_pills",
+    "column_name": "boundary_note"
+  },
+  {
+    "table_name": "mode_pills",
+    "column_name": "collides_with"
+  },
+  {
+    "table_name": "mode_pills",
+    "column_name": "resolution"
+  },
+  {
+    "table_name": "mode_pills",
+    "column_name": "is_free_text"
+  },
+  {
+    "table_name": "mode_pills",
+    "column_name": "status"
+  },
+  {
+    "table_name": "mode_pills",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "id"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "module_key"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "display_name"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "table_name"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "domain"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "category"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "description"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "is_core"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "is_active"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "module_registry",
+    "column_name": "tool_type"
+  },
+  {
+    "table_name": "module_rule_configs",
+    "column_name": "id"
+  },
+  {
+    "table_name": "module_rule_configs",
+    "column_name": "module_key"
+  },
+  {
+    "table_name": "module_rule_configs",
+    "column_name": "rule_key"
+  },
+  {
+    "table_name": "module_rule_configs",
+    "column_name": "rule_value"
+  },
+  {
+    "table_name": "module_rule_configs",
+    "column_name": "scope_type"
+  },
+  {
+    "table_name": "module_rule_configs",
+    "column_name": "scope_id"
+  },
+  {
+    "table_name": "module_rule_configs",
+    "column_name": "is_active"
+  },
+  {
+    "table_name": "module_rule_configs",
+    "column_name": "created_by_id"
+  },
+  {
+    "table_name": "module_rule_configs",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "module_rule_configs",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "mother_router_memory",
+    "column_name": "id"
+  },
+  {
+    "table_name": "mother_router_memory",
+    "column_name": "dispatch_id"
+  },
+  {
+    "table_name": "mother_router_memory",
+    "column_name": "ts"
+  },
+  {
+    "table_name": "mother_router_memory",
+    "column_name": "input_capability_tag"
+  },
+  {
+    "table_name": "mother_router_memory",
+    "column_name": "resolved_role"
+  },
+  {
+    "table_name": "mother_router_memory",
+    "column_name": "resolved_model"
+  },
+  {
+    "table_name": "mother_router_memory",
+    "column_name": "outcome"
+  },
+  {
+    "table_name": "mother_router_memory",
+    "column_name": "cost"
+  },
+  {
+    "table_name": "mother_router_memory",
+    "column_name": "cross_ref_work_item_id"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "id"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "ops_task_id"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "title"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "repo"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "branch"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "status"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "pr_url"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "software_task_id"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "ai_task_id"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "execution_seconds"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "restart_count"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "last_checkpoint_note"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "ops_dev_tasks",
+    "column_name": "last_synced_at"
+  },
+  {
+    "table_name": "product_branch_modules",
+    "column_name": "id"
+  },
+  {
+    "table_name": "product_branch_modules",
+    "column_name": "product_branch_id"
+  },
+  {
+    "table_name": "product_branch_modules",
+    "column_name": "module_key"
+  },
+  {
+    "table_name": "product_branch_modules",
+    "column_name": "is_enabled"
+  },
+  {
+    "table_name": "product_branch_modules",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "id"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "branch_key"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "display_name"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "domain"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "description"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "is_active"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "tagline"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "icon"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "status"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "launch_order"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "parent_domain"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "build_tier"
+  },
+  {
+    "table_name": "product_branches",
+    "column_name": "host_domain"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "id"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "phase"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "seq"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "module"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "title"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "layer"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "repo"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "file_path"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "what"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "how"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "definition_of_done"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "blocked_by"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "blocked_on_human"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "test_ids"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "status"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "evidence"
+  },
+  {
+    "table_name": "projexa_plan",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "id"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "module"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "plan_id"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "layer"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "title"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "given_when_then"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "oracle"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "oracle_source"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "is_gate"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "status"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "last_result"
+  },
+  {
+    "table_name": "projexa_tests",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "id"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "read_at"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "repo"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "file_path"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "ref"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "bytes"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "lines"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "method"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "stored_where"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "read_by"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "complete"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "what_it_answered"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "findings"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "url"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "priority"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "queue_status"
+  },
+  {
+    "table_name": "source_reads",
+    "column_name": "why_needed"
+  },
+  {
+    "table_name": "sumeet_coverage",
+    "column_name": "id"
+  },
+  {
+    "table_name": "sumeet_coverage",
+    "column_name": "module"
+  },
+  {
+    "table_name": "sumeet_coverage",
+    "column_name": "requirement"
+  },
+  {
+    "table_name": "sumeet_coverage",
+    "column_name": "serving_tables"
+  },
+  {
+    "table_name": "sumeet_coverage",
+    "column_name": "table_rows"
+  },
+  {
+    "table_name": "sumeet_coverage",
+    "column_name": "serving_ui"
+  },
+  {
+    "table_name": "sumeet_coverage",
+    "column_name": "verdict"
+  },
+  {
+    "table_name": "sumeet_coverage",
+    "column_name": "gap"
+  },
+  {
+    "table_name": "sumeet_coverage",
+    "column_name": "spec_refs"
+  },
+  {
+    "table_name": "sumeet_coverage",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "sumeet_gap",
+    "column_name": "id"
+  },
+  {
+    "table_name": "sumeet_gap",
+    "column_name": "module"
+  },
+  {
+    "table_name": "sumeet_gap",
+    "column_name": "requirement"
+  },
+  {
+    "table_name": "sumeet_gap",
+    "column_name": "status"
+  },
+  {
+    "table_name": "sumeet_gap",
+    "column_name": "whats_missing"
+  },
+  {
+    "table_name": "sumeet_gap",
+    "column_name": "exact_tables"
+  },
+  {
+    "table_name": "sumeet_gap",
+    "column_name": "exact_files"
+  },
+  {
+    "table_name": "sumeet_gap",
+    "column_name": "path_confidence"
+  },
+  {
+    "table_name": "sumeet_gap",
+    "column_name": "migration_needed"
+  },
+  {
+    "table_name": "sumeet_gap",
+    "column_name": "refs"
+  },
+  {
+    "table_name": "sumeet_gap",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "id"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "sort_order"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "area"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "requirement"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "source"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "status"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "built"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "verified_in_db"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "tested_in_live_ui"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "route"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "file_path"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "evidence"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "github_pr"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "vercel"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "next_action"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "sumeet_requirements",
+    "column_name": "updated_by"
+  },
+  {
+    "table_name": "sumeet_spec",
+    "column_name": "id"
+  },
+  {
+    "table_name": "sumeet_spec",
+    "column_name": "area"
+  },
+  {
+    "table_name": "sumeet_spec",
+    "column_name": "topic"
+  },
+  {
+    "table_name": "sumeet_spec",
+    "column_name": "detail"
+  },
+  {
+    "table_name": "sumeet_spec",
+    "column_name": "worked_example"
+  },
+  {
+    "table_name": "sumeet_spec",
+    "column_name": "source"
+  },
+  {
+    "table_name": "sumeet_spec",
+    "column_name": "confidence"
+  },
+  {
+    "table_name": "sumeet_spec",
+    "column_name": "open_question"
+  },
+  {
+    "table_name": "sumeet_spec",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "test_no"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "module"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "functionality"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "func_ref"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "test_type"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "title"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "surface"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "preconditions"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "input_data"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "steps"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "expected_exact"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "oracle_source"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "tolerance"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "business_logic_checked"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "what_would_be_a_false_pass"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "cleanup"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "depends_on_test"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "blocked_by"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "status"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "actual_observed"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "deviation"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "evidence"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "screenshot_ref"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "run_at"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "attempt_count"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "notes"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "requirement_ref"
+  },
+  {
+    "table_name": "sumeet_uat",
+    "column_name": "point_no"
+  },
+  {
+    "table_name": "system_map",
+    "column_name": "id"
+  },
+  {
+    "table_name": "system_map",
+    "column_name": "layer"
+  },
+  {
+    "table_name": "system_map",
+    "column_name": "node"
+  },
+  {
+    "table_name": "system_map",
+    "column_name": "role"
+  },
+  {
+    "table_name": "system_map",
+    "column_name": "key_columns"
+  },
+  {
+    "table_name": "system_map",
+    "column_name": "connects_to"
+  },
+  {
+    "table_name": "system_map",
+    "column_name": "row_state"
+  },
+  {
+    "table_name": "system_map",
+    "column_name": "status"
+  },
+  {
+    "table_name": "system_map",
+    "column_name": "notes"
+  },
+  {
+    "table_name": "system_map",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "id"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "capability_key"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "mode_pill"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "path_keys"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "status"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "needs_improvement"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "version"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "last_audited_at"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "last_audited_version"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "occurrence_count"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "prompt_word_index"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "full_software_count"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "package_available_count"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "novel_count"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "org_id"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "task_capabilities",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "task_register",
+    "column_name": "id"
+  },
+  {
+    "table_name": "task_register",
+    "column_name": "task_id"
+  },
+  {
+    "table_name": "task_register",
+    "column_name": "level"
+  },
+  {
+    "table_name": "task_register",
+    "column_name": "scope"
+  },
+  {
+    "table_name": "task_register",
+    "column_name": "role_key"
+  },
+  {
+    "table_name": "task_register",
+    "column_name": "status"
+  },
+  {
+    "table_name": "task_register",
+    "column_name": "instruction_contract"
+  },
+  {
+    "table_name": "task_register",
+    "column_name": "execution_report"
+  },
+  {
+    "table_name": "task_register",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "task_register",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "task_register",
+    "column_name": "completed_at"
+  },
+  {
+    "table_name": "uat_coverage",
+    "column_name": "requirement_id"
+  },
+  {
+    "table_name": "uat_coverage",
+    "column_name": "area"
+  },
+  {
+    "table_name": "uat_coverage",
+    "column_name": "built"
+  },
+  {
+    "table_name": "uat_coverage",
+    "column_name": "tested_in_live_ui"
+  },
+  {
+    "table_name": "uat_coverage",
+    "column_name": "tests_written"
+  },
+  {
+    "table_name": "uat_coverage",
+    "column_name": "tests_passing"
+  },
+  {
+    "table_name": "uat_coverage",
+    "column_name": "tests_ever_run"
+  },
+  {
+    "table_name": "vaos_gap",
+    "column_name": "id"
+  },
+  {
+    "table_name": "vaos_gap",
+    "column_name": "area"
+  },
+  {
+    "table_name": "vaos_gap",
+    "column_name": "spec_ref"
+  },
+  {
+    "table_name": "vaos_gap",
+    "column_name": "finding"
+  },
+  {
+    "table_name": "vaos_gap",
+    "column_name": "evidence"
+  },
+  {
+    "table_name": "vaos_gap",
+    "column_name": "severity"
+  },
+  {
+    "table_name": "vaos_gap",
+    "column_name": "conflicts_with"
+  },
+  {
+    "table_name": "vaos_gap",
+    "column_name": "resolution"
+  },
+  {
+    "table_name": "vaos_gap",
+    "column_name": "status"
+  },
+  {
+    "table_name": "vaos_gap",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "id"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "seq"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "mode_pill"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "option_path"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "command"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "tests"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "target_module"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "chain_exists"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "handler_exists"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "status"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "last_result"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "notes"
+  },
+  {
+    "table_name": "vaos_tests",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "veridian_design",
+    "column_name": "id"
+  },
+  {
+    "table_name": "veridian_design",
+    "column_name": "area"
+  },
+  {
+    "table_name": "veridian_design",
+    "column_name": "question"
+  },
+  {
+    "table_name": "veridian_design",
+    "column_name": "answer"
+  },
+  {
+    "table_name": "veridian_design",
+    "column_name": "uses_existing"
+  },
+  {
+    "table_name": "veridian_design",
+    "column_name": "must_be_built"
+  },
+  {
+    "table_name": "veridian_design",
+    "column_name": "failure_modes"
+  },
+  {
+    "table_name": "veridian_design",
+    "column_name": "latency_budget_ms"
+  },
+  {
+    "table_name": "veridian_design",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "veridian_flow",
+    "column_name": "id"
+  },
+  {
+    "table_name": "veridian_flow",
+    "column_name": "stage_no"
+  },
+  {
+    "table_name": "veridian_flow",
+    "column_name": "stage"
+  },
+  {
+    "table_name": "veridian_flow",
+    "column_name": "rajat_requirement"
+  },
+  {
+    "table_name": "veridian_flow",
+    "column_name": "what_exists_today"
+  },
+  {
+    "table_name": "veridian_flow",
+    "column_name": "evidence"
+  },
+  {
+    "table_name": "veridian_flow",
+    "column_name": "what_is_missing"
+  },
+  {
+    "table_name": "veridian_flow",
+    "column_name": "verdict"
+  },
+  {
+    "table_name": "veridian_flow",
+    "column_name": "risk"
+  },
+  {
+    "table_name": "veridian_flow",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "worker_agent_domain_groups",
+    "column_name": "id"
+  },
+  {
+    "table_name": "worker_agent_domain_groups",
+    "column_name": "key"
+  },
+  {
+    "table_name": "worker_agent_domain_groups",
+    "column_name": "name"
+  },
+  {
+    "table_name": "worker_agent_domain_groups",
+    "column_name": "description"
+  },
+  {
+    "table_name": "worker_agent_domain_groups",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "worker_agent_domain_index",
+    "column_name": "id"
+  },
+  {
+    "table_name": "worker_agent_domain_index",
+    "column_name": "worker_agent_id"
+  },
+  {
+    "table_name": "worker_agent_domain_index",
+    "column_name": "domain_path"
+  },
+  {
+    "table_name": "worker_agent_domain_index",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "worker_agent_learnings",
+    "column_name": "id"
+  },
+  {
+    "table_name": "worker_agent_learnings",
+    "column_name": "worker_agent_id"
+  },
+  {
+    "table_name": "worker_agent_learnings",
+    "column_name": "content"
+  },
+  {
+    "table_name": "worker_agent_learnings",
+    "column_name": "metadata"
+  },
+  {
+    "table_name": "worker_agent_learnings",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "worker_agent_learnings",
+    "column_name": "embedding"
+  },
+  {
+    "table_name": "worker_agent_usage_log",
+    "column_name": "id"
+  },
+  {
+    "table_name": "worker_agent_usage_log",
+    "column_name": "worker_agent_id"
+  },
+  {
+    "table_name": "worker_agent_usage_log",
+    "column_name": "org_id"
+  },
+  {
+    "table_name": "worker_agent_usage_log",
+    "column_name": "client_id"
+  },
+  {
+    "table_name": "worker_agent_usage_log",
+    "column_name": "user_id"
+  },
+  {
+    "table_name": "worker_agent_usage_log",
+    "column_name": "executed_at"
+  },
+  {
+    "table_name": "worker_agent_usage_log",
+    "column_name": "duration_ms"
+  },
+  {
+    "table_name": "worker_agent_usage_log",
+    "column_name": "success"
+  },
+  {
+    "table_name": "worker_agent_usage_log",
+    "column_name": "error_message"
+  },
+  {
+    "table_name": "worker_agent_versions",
+    "column_name": "id"
+  },
+  {
+    "table_name": "worker_agent_versions",
+    "column_name": "worker_agent_id"
+  },
+  {
+    "table_name": "worker_agent_versions",
+    "column_name": "version"
+  },
+  {
+    "table_name": "worker_agent_versions",
+    "column_name": "prompt_template"
+  },
+  {
+    "table_name": "worker_agent_versions",
+    "column_name": "input_schema"
+  },
+  {
+    "table_name": "worker_agent_versions",
+    "column_name": "output_schema"
+  },
+  {
+    "table_name": "worker_agent_versions",
+    "column_name": "changelog"
+  },
+  {
+    "table_name": "worker_agent_versions",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "id"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "tier"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "name"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "domain"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "description"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "code_reference"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "prompt_template"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "input_schema"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "output_schema"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "is_immutable"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "version"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "usage_count"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "accuracy_score"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "org_id"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "client_id"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "user_id"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "created_at"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "updated_at"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "capability_embedding"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "knowledge_embedding"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "lifecycle_status"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "supervisor_worker_agent_id"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "proposed_by_id"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "project_id"
+  },
+  {
+    "table_name": "worker_agents",
+    "column_name": "domain_group_id"
+  }
+]
