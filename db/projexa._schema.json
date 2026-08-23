@@ -1,286 +1,73 @@
 [
-  {
-    "table_name": "assistant_queries",
-    "column_name": "id"
-  },
-  {
-    "table_name": "assistant_queries",
-    "column_name": "organization_id"
-  },
-  {
-    "table_name": "assistant_queries",
-    "column_name": "created_by"
-  },
-  {
-    "table_name": "assistant_queries",
-    "column_name": "code_reference"
-  },
-  {
-    "table_name": "assistant_queries",
-    "column_name": "breadcrumb"
-  },
-  {
-    "table_name": "assistant_queries",
-    "column_name": "inputs"
-  },
-  {
-    "table_name": "assistant_queries",
-    "column_name": "result"
-  },
-  {
-    "table_name": "assistant_queries",
-    "column_name": "status"
-  },
-  {
-    "table_name": "assistant_queries",
-    "column_name": "error_message"
-  },
-  {
-    "table_name": "assistant_queries",
-    "column_name": "created_at"
-  },
-  {
-    "table_name": "contact_requests",
-    "column_name": "id"
-  },
-  {
-    "table_name": "contact_requests",
-    "column_name": "name"
-  },
-  {
-    "table_name": "contact_requests",
-    "column_name": "email"
-  },
-  {
-    "table_name": "contact_requests",
-    "column_name": "company"
-  },
-  {
-    "table_name": "contact_requests",
-    "column_name": "phone"
-  },
-  {
-    "table_name": "contact_requests",
-    "column_name": "message"
-  },
-  {
-    "table_name": "contact_requests",
-    "column_name": "source_page"
-  },
-  {
-    "table_name": "contact_requests",
-    "column_name": "created_at"
-  },
-  {
-    "table_name": "conversation_participants",
-    "column_name": "conversation_id"
-  },
-  {
-    "table_name": "conversation_participants",
-    "column_name": "user_id"
-  },
-  {
-    "table_name": "conversation_participants",
-    "column_name": "joined_at"
-  },
-  {
-    "table_name": "conversations",
-    "column_name": "id"
-  },
-  {
-    "table_name": "conversations",
-    "column_name": "organization_id"
-  },
-  {
-    "table_name": "conversations",
-    "column_name": "created_at"
-  },
-  {
-    "table_name": "memberships",
-    "column_name": "id"
-  },
-  {
-    "table_name": "memberships",
-    "column_name": "user_id"
-  },
-  {
-    "table_name": "memberships",
-    "column_name": "organization_id"
-  },
-  {
-    "table_name": "memberships",
-    "column_name": "role"
-  },
-  {
-    "table_name": "memberships",
-    "column_name": "created_at"
-  },
-  {
-    "table_name": "messages",
-    "column_name": "id"
-  },
-  {
-    "table_name": "messages",
-    "column_name": "conversation_id"
-  },
-  {
-    "table_name": "messages",
-    "column_name": "sender_id"
-  },
-  {
-    "table_name": "messages",
-    "column_name": "content"
-  },
-  {
-    "table_name": "messages",
-    "column_name": "created_at"
-  },
-  {
-    "table_name": "notifications",
-    "column_name": "id"
-  },
-  {
-    "table_name": "notifications",
-    "column_name": "organization_id"
-  },
-  {
-    "table_name": "notifications",
-    "column_name": "user_id"
-  },
-  {
-    "table_name": "notifications",
-    "column_name": "title"
-  },
-  {
-    "table_name": "notifications",
-    "column_name": "message"
-  },
-  {
-    "table_name": "notifications",
-    "column_name": "type"
-  },
-  {
-    "table_name": "notifications",
-    "column_name": "is_read"
-  },
-  {
-    "table_name": "notifications",
-    "column_name": "metadata"
-  },
-  {
-    "table_name": "notifications",
-    "column_name": "created_at"
-  },
-  {
-    "table_name": "organizations",
-    "column_name": "id"
-  },
-  {
-    "table_name": "organizations",
-    "column_name": "name"
-  },
-  {
-    "table_name": "organizations",
-    "column_name": "slug"
-  },
-  {
-    "table_name": "organizations",
-    "column_name": "created_at"
-  },
-  {
-    "table_name": "organizations",
-    "column_name": "country"
-  },
-  {
-    "table_name": "profiles",
-    "column_name": "id"
-  },
-  {
-    "table_name": "profiles",
-    "column_name": "email"
-  },
-  {
-    "table_name": "profiles",
-    "column_name": "display_name"
-  },
-  {
-    "table_name": "profiles",
-    "column_name": "created_at"
-  },
-  {
-    "table_name": "todos",
-    "column_name": "id"
-  },
-  {
-    "table_name": "todos",
-    "column_name": "organization_id"
-  },
-  {
-    "table_name": "todos",
-    "column_name": "user_id"
-  },
-  {
-    "table_name": "todos",
-    "column_name": "text"
-  },
-  {
-    "table_name": "todos",
-    "column_name": "done"
-  },
-  {
-    "table_name": "todos",
-    "column_name": "created_at"
-  },
-  {
-    "table_name": "veridian_credentials",
-    "column_name": "organization_id"
-  },
-  {
-    "table_name": "veridian_credentials",
-    "column_name": "veridian_org_id"
-  },
-  {
-    "table_name": "veridian_credentials",
-    "column_name": "veridian_api_key"
-  },
-  {
-    "table_name": "veridian_credentials",
-    "column_name": "created_at"
-  },
-  {
-    "table_name": "veridian_credentials",
-    "column_name": "updated_at"
-  },
-  {
-    "table_name": "work_progress_photos",
-    "column_name": "id"
-  },
-  {
-    "table_name": "work_progress_photos",
-    "column_name": "organization_id"
-  },
-  {
-    "table_name": "work_progress_photos",
-    "column_name": "veridian_entry_id"
-  },
-  {
-    "table_name": "work_progress_photos",
-    "column_name": "uploaded_by"
-  },
-  {
-    "table_name": "work_progress_photos",
-    "column_name": "storage_path"
-  },
-  {
-    "table_name": "work_progress_photos",
-    "column_name": "file_name"
-  },
-  {
-    "table_name": "work_progress_photos",
-    "column_name": "content_type"
-  },
-  {
-    "table_name": "work_progress_photos",
-    "column_name": "created_at"
-  }
+  {"table_name":"assistant_queries","column_name":"id"},
+  {"table_name":"assistant_queries","column_name":"organization_id"},
+  {"table_name":"assistant_queries","column_name":"created_by"},
+  {"table_name":"assistant_queries","column_name":"code_reference"},
+  {"table_name":"assistant_queries","column_name":"breadcrumb"},
+  {"table_name":"assistant_queries","column_name":"inputs"},
+  {"table_name":"assistant_queries","column_name":"result"},
+  {"table_name":"assistant_queries","column_name":"status"},
+  {"table_name":"assistant_queries","column_name":"error_message"},
+  {"table_name":"assistant_queries","column_name":"created_at"},
+  {"table_name":"contact_requests","column_name":"id"},
+  {"table_name":"contact_requests","column_name":"name"},
+  {"table_name":"contact_requests","column_name":"email"},
+  {"table_name":"contact_requests","column_name":"company"},
+  {"table_name":"contact_requests","column_name":"phone"},
+  {"table_name":"contact_requests","column_name":"message"},
+  {"table_name":"contact_requests","column_name":"source_page"},
+  {"table_name":"contact_requests","column_name":"created_at"},
+  {"table_name":"conversation_participants","column_name":"conversation_id"},
+  {"table_name":"conversation_participants","column_name":"user_id"},
+  {"table_name":"conversation_participants","column_name":"joined_at"},
+  {"table_name":"conversations","column_name":"id"},
+  {"table_name":"conversations","column_name":"organization_id"},
+  {"table_name":"conversations","column_name":"created_at"},
+  {"table_name":"memberships","column_name":"id"},
+  {"table_name":"memberships","column_name":"user_id"},
+  {"table_name":"memberships","column_name":"organization_id"},
+  {"table_name":"memberships","column_name":"role"},
+  {"table_name":"memberships","column_name":"created_at"},
+  {"table_name":"messages","column_name":"id"},
+  {"table_name":"messages","column_name":"conversation_id"},
+  {"table_name":"messages","column_name":"sender_id"},
+  {"table_name":"messages","column_name":"content"},
+  {"table_name":"messages","column_name":"created_at"},
+  {"table_name":"notifications","column_name":"id"},
+  {"table_name":"notifications","column_name":"organization_id"},
+  {"table_name":"notifications","column_name":"user_id"},
+  {"table_name":"notifications","column_name":"title"},
+  {"table_name":"notifications","column_name":"message"},
+  {"table_name":"notifications","column_name":"type"},
+  {"table_name":"notifications","column_name":"is_read"},
+  {"table_name":"notifications","column_name":"metadata"},
+  {"table_name":"notifications","column_name":"created_at"},
+  {"table_name":"organizations","column_name":"id"},
+  {"table_name":"organizations","column_name":"name"},
+  {"table_name":"organizations","column_name":"slug"},
+  {"table_name":"organizations","column_name":"created_at"},
+  {"table_name":"organizations","column_name":"country"},
+  {"table_name":"profiles","column_name":"id"},
+  {"table_name":"profiles","column_name":"email"},
+  {"table_name":"profiles","column_name":"display_name"},
+  {"table_name":"profiles","column_name":"created_at"},
+  {"table_name":"todos","column_name":"id"},
+  {"table_name":"todos","column_name":"organization_id"},
+  {"table_name":"todos","column_name":"user_id"},
+  {"table_name":"todos","column_name":"text"},
+  {"table_name":"todos","column_name":"done"},
+  {"table_name":"todos","column_name":"created_at"},
+  {"table_name":"veridian_credentials","column_name":"organization_id"},
+  {"table_name":"veridian_credentials","column_name":"veridian_org_id"},
+  {"table_name":"veridian_credentials","column_name":"veridian_api_key"},
+  {"table_name":"veridian_credentials","column_name":"created_at"},
+  {"table_name":"veridian_credentials","column_name":"updated_at"},
+  {"table_name":"work_progress_photos","column_name":"id"},
+  {"table_name":"work_progress_photos","column_name":"organization_id"},
+  {"table_name":"work_progress_photos","column_name":"veridian_entry_id"},
+  {"table_name":"work_progress_photos","column_name":"uploaded_by"},
+  {"table_name":"work_progress_photos","column_name":"storage_path"},
+  {"table_name":"work_progress_photos","column_name":"file_name"},
+  {"table_name":"work_progress_photos","column_name":"content_type"},
+  {"table_name":"work_progress_photos","column_name":"created_at"}
 ]
