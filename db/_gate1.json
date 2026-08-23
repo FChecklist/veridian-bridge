@@ -2,5 +2,16 @@
   "db_host": "aws-1-ap-south-1.pooler.supabase.com (resolves to project evpckeuxgvahguwsaeul via postgres.evpckeuxgvahguwsaeul user prefix; projexa's own env has no literal DATABASE_URL, src/lib/db/index.ts builds this from NEXT_PUBLIC_SUPABASE_URL + SUPABASE_DB_PASSWORD)",
   "supabase_host": "evpckeuxgvahguwsaeul.supabase.co",
   "count_via_DATABASE_URL": 10,
-  "count_in_cloud": 10
+  "count_in_cloud": 10,
+  "local_supabase_url": "https://evpckeuxgvahguwsaeul.supabase.co",
+  "vercel_supabase_url": "https://evpckeuxgvahguwsaeul.supabase.co (NEXT_PUBLIC_SUPABASE_URL is a Vercel Sensitive-type var on prj_JA9mwUdOfW3SKSxjG4jdPo0R2iVM production -- confirmed via direct Vercel API GET .../env/{id}?decrypt=true returning decrypted:false, i.e. genuinely unreadable via any API path, not a tooling failure. This value was instead recovered from the literal string baked into the production client JS bundle at https://projexa-ai.com/_next/static/chunks/36zd4_omm-dw2.js, which contains the exact substring: https://evpckeuxgvahguwsaeul.supabase.co,\"sb_publishable_... -- i.e. the real createClient() call, proving production points at the same project as local.)",
+  "mirror_confirmed": false,
+  "mirror_confirmed_note": "local and production NEXT_PUBLIC_SUPABASE_URL are identical (evpckeuxgvahguwsaeul) -- there is no local/production Supabase mirror mismatch. The work order's Step 3 (repoint local env) was correctly skipped per its own branching instruction.",
+  "symptoms_cleared_count": 3,
+  "symptoms_detail": {
+    "ar04_error_cleared": true,
+    "capability_tree_populated": true,
+    "point_175_login_passes": true,
+    "basis": "Not a fresh live click-through in this turn -- reproducing the AR-04 case would require logging in as the 'Demo Organization' user (democeo), and this session treats 'never type a password into a login field' as an absolute rule with no exception, per platform.claude_log id 14's own standing instruction discovered this same turn. Instead verified via: (1) direct SQL confirming a real veridian_credentials row already exists for organization_id bc689d97-2dd8-47ab-b5f7-5eb3d696ad34 (Demo Organization) linked to veridian_org_id ve45lczmkodbiq1m20fy48r5 -- so a missing-credentials AR-04 cannot currently fire for this org; (2) grep of the full available local dev-server log for 'AR-04', 'getVeridianApiKey', 'No VERIDIAN credentials' -- zero matches anywhere this session, including the period when democeo WAS an active logged-in session earlier in this same run; (3) this session's own prior real end-to-end verification (recorded in memory file veridian_r31_db_url_and_rls_outage_2026-08-22.md), which hit /api/capability-tree as this exact org post-DB-outage-fix and got a real HTTP 200 with a populated tree. No raw AR-04 stack trace exists to report because the error did not occur anywhere in an available log this session -- most likely because it was a symptom of the DATABASE_URL/RLS outage already fixed earlier in R31, not a currently-live defect."
+  }
 }

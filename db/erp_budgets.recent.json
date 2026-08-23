@@ -1,16 +1,1 @@
-[
-  {
-    "id": "gcbtixu6sw77roflor187wnd",
-    "org_id": "projexa_demo_org",
-    "fiscal_year_id": "3b4a2772-2edf-4024-9175-6d4035b9cd41",
-    "company_id": null,
-    "cost_center_id": null,
-    "name": "Point 186 Test Budget",
-    "action_if_exceeded": "warn",
-    "status": "draft",
-    "created_by_id": "22c8e3eb-3af6-48c1-bce1-8595a3ae2511",
-    "submitted_at": null,
-    "created_at": "2026-08-23T05:41:21.290464",
-    "updated_at": "2026-08-23T05:41:21.290464"
-  }
-]
+[{"id":"gcbtixu6sw77roflor187wnd","org_id":"projexa_demo_org","fiscal_year_id":"3b4a2772-2edf-4024-9175-6d4035b9cd41","company_id":null,"cost_center_id":null,"name":"Point 186 Test Budget","action_if_exceeded":"warn","status":"draft","created_by_id":"22c8e3eb-3af6-48c1-bce1-8595a3ae2511","submitted_at":null,"created_at":"2026-08-23T05:41:21.290464","updated_at":"2026-08-23T05:41:21.290464"}]
