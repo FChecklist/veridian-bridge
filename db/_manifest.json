@@ -13,7 +13,7 @@
   },
   "platform.claude_log.handout.json": {
     "row_count": 1,
-    "exported_at_utc": "2026-08-23T16:30:00Z"
+    "exported_at_utc": "2026-08-24T00:00:00Z"
   },
   "platform.cc_spec.json": {
     "row_count": 122,
@@ -21,7 +21,7 @@
   },
   "platform.sumeet_requirements.json": {
     "row_count": 69,
-    "exported_at_utc": "2026-08-23T16:30:00Z"
+    "exported_at_utc": "2026-08-24T00:00:00Z"
   },
   "tests.json": {
     "row_count": 38,
@@ -46,5 +46,13 @@
   "projexa._schema.json": {
     "row_count": 71,
     "exported_at_utc": "2026-08-23T16:30:00Z"
+  },
+  "platform.r42_queue.json": {
+    "row_count": 16,
+    "exported_at_utc": "2026-08-24T00:00:00Z"
+  },
+  "platform.screen_spec.json": {
+    "row_count": 8,
+    "exported_at_utc": "2026-08-24T00:00:00Z"
   }
 }
